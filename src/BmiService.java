@@ -6,16 +6,13 @@ public class BmiService {
 
         BodyMassIndex = weight / (height * height);
 
-        System.out.println("BMI for weight " + weight + "kg");
-        System.out.println("And height " + height + "m");
-        System.out.println("Body mass " + BodyMassIndex + ".");
+        System.out.println(" BMI for weight " + weight + "kg");
+        System.out.println(" And height " + height + "m");
+        System.out.println(" Body mass " + BodyMassIndex + ".");
 
 
         return (int) BodyMassIndex;
-
     }
-
-
 }
 
 

@@ -3,8 +3,9 @@ public class Main {
 
         BmiService service = new BmiService();
         int BmiService = service.calculate(80, 1.80);
-        System.out.println("Ваша масса тела составляет =" + BmiService);
-
+        System.out.println(" Body weight is = " + BmiService);
+    }
+}
 
         //int weight = 82;
         //double height = 1.82;
@@ -18,7 +19,7 @@ public class Main {
         //System.out.println("Body mass " + bodyMassIndex + ".");
 
 
-    }
-}
+
+
 
 
